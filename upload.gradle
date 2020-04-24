@@ -3,7 +3,7 @@
  */
 def siteUrl = 'https://github.com/goyalharsh73334/AirBoxSdk'      // Homepage URL of the library
 def gitUrl = 'https://github.com/goyalharsh73334/AirBoxSdk.git'   // Git repository URL
-group = "com.sdk"                            // Maven Group ID for the artifact
+group = "com.airbox_android_sdk"                            // Maven Group ID for the artifact
 
 Properties moduleProperties = new Properties()
 moduleProperties.load(project.file('module.properties').newDataInputStream())
